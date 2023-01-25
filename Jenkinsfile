@@ -4,7 +4,7 @@ pipeline {
         CC = 'clang'
     }
     stages {
-        stage('Example') {
+        stage('stage-EnvVar-all') {
             environment { 
                 DEBUG_FLAGS = '-g'
             }
